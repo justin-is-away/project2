@@ -75,7 +75,7 @@ plt.bar(b + width, reading_means, color = 'r', width = width, label='Reading')
   
 plt.xlabel("Groups")
 plt.ylabel("Scores")
-plt.title("Average Scores by Subject, per Group")
+plt.title("Average Student Scores by Subject, per Group")
   
 # plt.grid(linestyle='--')
 plt.xticks(b + width/2, labels)
